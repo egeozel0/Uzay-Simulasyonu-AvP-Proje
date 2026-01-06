@@ -20,7 +20,7 @@ void yukari_atis_deneyi(double *ivmeler_ptr){
     for (i = 0; i < 8; i++) {
         double g = *(ivmeler_ptr + i); 
         hmax = (v0 * v0) / (2 * g);
-        printf("%-10s : %.2f m\n", gezegenler[i], hmax);
+        printf("%-10s : %.2f m\n", gezegenler[i], hmax); 
     printf("---------------------------------------------------\n");}
 }
 void PEnerji_deneyi(double *ivmeler_ptr){
@@ -204,6 +204,7 @@ void asansor_deneyi(double *ivmeler_ptr)
     int i;
 
     printf("\n--- ASANSOR DENEYI ---\n");
+    printf("Hissedilen agirligi hesaplamak icin");
     printf("Lutfen asansorun icindeki cismin kutlesini (kg) giriniz: ");
     scanf("%lf", &kutle);
     kutle = (kutle < 0) ? -kutle : kutle; 
