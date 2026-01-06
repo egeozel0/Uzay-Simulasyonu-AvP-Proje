@@ -205,7 +205,7 @@ void asansor_deneyi(double *ivmeler_ptr)
 
     printf("\n--- ASANSOR DENEYI ---\n");
     printf("Hissedilen agirligi hesaplamak icin");
-    printf("Lutfen asansorun icindeki cismin kutlesini (kg) giriniz: ");
+    printf("\nLutfen asansorun icindeki cismin kutlesini (kg) giriniz: ");
     scanf("%lf", &kutle);
     kutle = (kutle < 0) ? -kutle : kutle; 
 
