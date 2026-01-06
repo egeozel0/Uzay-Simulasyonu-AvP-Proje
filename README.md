@@ -2,10 +2,10 @@
 
 Bu proje, **Bursa Teknik Üniversitesi Bilgisayar Mühendisliği Bölümü**, Algoritmalar ve Programlama dersi dönem projesi kapsamında geliştirilmiştir.
 
-## 🚀 Proje Hakkında
+## Proje Hakkında
 Bu uygulama, konsol tabanlı (C dili ile yazılmış) bir uzay simülasyonudur. Kullanıcı , Güneş Sistemi'ndeki 8 farklı gezegenin fiziksel koşulları altında çeşitli fizik deneylerini simüle edebilir.
 
-## 🧪 Mevcut Deneyler
+## Mevcut Deneyler
 Program aşağıdaki 9 farklı deneyi simüle edebilmektedir:
 
 1.  **Serbest Düşme Deneyi:** Belirli bir sürede düşülen yüksekliğin hesabı.
@@ -18,7 +18,7 @@ Program aşağıdaki 9 farklı deneyi simüle edebilmektedir:
 8.  **Sabit İp Gerilmesi Deneyi:** Asılı cismin ipe uyguladığı kuvvet.
 9.  **Asansör Deneyi:** İvmelenen sistemlerde eylemsizlik etkisiyle değişen ağırlık hesabı.
 
-## 🛠 Teknik Detaylar
+## Teknik Detaylar
 * **Dil:** C Programlama Dili
 * **Uyulan Kurallar:** * Tüm dizi erişimleri **Pointer Aritmetiği** ile yapılmıştır.
     * Negatif girdi kontrolleri **Ternary Operator** ile sağlanmıştır.
