@@ -260,7 +260,7 @@ printf("-------------------------\n");
 printf("Bilim Insani Ismi Gırınız :");
 scanf("%s", bilim_insani_adi);
 
-printf("\nMerrhaba Sayin %s, deney ortamimiz hazirlaniyor...\n", bilim_insani_adi);
+printf("\nMerhaba Sayin %s, deney ortamimiz hazirlaniyor...\n", bilim_insani_adi);
 
 do {
         printf("\n----------------------------------------\n");
