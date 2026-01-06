@@ -72,7 +72,6 @@ void hidrostatik_basinc_deneyi(double *ivmeler_ptr){
     printf("---------------------------------------------------\n");
 
     for (i = 0; i < 8; i++) {
-        // Formül: P = rho * g * h
         P = rho * (*(ivmeler_ptr + i)) * h;
 
         printf("%-10s : %.2f Pa\n", gezegenler[i], P);
